@@ -1,4 +1,4 @@
-Weekly challenge to create something with D3.js to track my progress and collect resources. Inspired by <a href="https://github.com/juanchiparra/recreating-with-d3">Juanchi Parra</a>.
+Weekly challenge to create something with D3.js to track my progress and collect resources, sometimes using an existing data viz as a source and recreating it with my own style, or creating an original data viz. Inspired by <a href="https://github.com/juanchiparra/recreating-with-d3">Juanchi Parra</a>.
 
 | Week | Description | Source | Code | Resources |
 | :--- | :--- | :--- | :--- | :--- |
