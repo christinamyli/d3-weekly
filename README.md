@@ -6,7 +6,7 @@ Weekly challenge to create something with D3.js to track my progress and collect
 
 ## 01 - Things I Learned
 - First, I used pandas in Python to clean the <a href="https://github.com/littlebitsandcodes/d3-weekly/blob/main/2024/01-line/data/fredgraph.csv">original csv file</a> downloaded from the U.S. Bureau of Labor Statistics
-    - Renamed the columns from (DATE -> Date, LNS11300001_NBD20200101 -> Men, LNS11300002_NBD20200101 -> Women)
+    - Renamed the columns (DATE -> Date, LNS11300001_NBD20200101 -> Men, LNS11300002_NBD20200101 -> Women)
     - Formatted the dates
     - Exported as json file
 - 
