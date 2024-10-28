@@ -26,4 +26,4 @@ D3.js Implementation
   - JSON, where each row has all categories as columns: `.attr("d", line.y(d => y(d[category.name])))`
   - CSV, where each category has its own array of values: `.attr("d", (d) => line(d.values))`
 - Create tooltip div class outside of the d3 data loading function, otherwise it didn't work
-- I later took the ticks out, but when making axes with ticks, you have to indent the ticks function so that it is chained to the axis generator `.call(d3.axisLeft(y)` and not to the selection `svg.append("g)`
+- I later took the ticks out, but when making axes with ticks, you have to indent the ticks function so that it is chained to the axis generator `.call(d3.axisLeft(y)` and not to the selection `svg.append("g")`
