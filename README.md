@@ -20,6 +20,7 @@ D3.js Implementation
   - Scale domain:
     - In this specific data viz, I manually set the y domain to have a minimum of 94
     - To set the maximum, I directly referenced the columns: `y.domain([ 94, d3.max(data, d => Math.max(d.Men, d.Women)) ]);`
+    - In this case there is more than one category, so I used `Math.max(d.Men, d.Women` which compares the two values and returns the larger one
     - Another method to set the maximum by using the categories array: `y.domain([ 94, d3.max(data, d => Math.max(...categories.map(c => d[c.name]))) ]);`
 - Line generator syntax varies based on dataset structure:
   - JSON, where each row has all categories as columns: `.attr("d", line.y(d => y(d[category.name])))`
