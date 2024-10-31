@@ -2,8 +2,8 @@ Weekly challenge to create something with D3.js to track my progress and collect
 
 | Week | Data Viz | Original or Recreation? | Source | Code | Resources |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 01 | <a href="https://littlebitsandcodes.github.io/d3-weekly/2024/01-line/">Interactive multiple lines chart (with hover tooltip)</a> | Recreation |<a href="https://www.nbcnews.com/data-graphics/labor-force-participation-pre-pandemic-levels-rcna74363">NBC News</a> | <a href="https://github.com/littlebitsandcodes/d3-weekly/tree/main/2024/01-line">2024/01</a> | <a href="https://github.com/jaredwhalen/2024-dvs-mentorship/tree/main/d3">Jared Whalen</a>, <a href="https://www.youtube.com/watch?v=g5bp02-CRAc">DataVizDad</a> (3 Parts)
-
+| 01 | <a href="https://littlebitsandcodes.github.io/d3-weekly/2024/01-line/">Interactive multiple lines chart (with hover tooltip)</a> | Recreation | <a href="https://www.nbcnews.com/data-graphics/labor-force-participation-pre-pandemic-levels-rcna74363">NBC News</a> | <a href="https://github.com/littlebitsandcodes/d3-weekly/tree/main/2024/01-line">2024/01</a> | <a href="https://github.com/jaredwhalen/2024-dvs-mentorship/tree/main/d3">Jared Whalen</a>, <a href="https://www.youtube.com/watch?v=g5bp02-CRAc">DataVizDad</a> (3 Parts)
+| 02 | Stacked area chart | Recreation | <a href="https://flowingdata.com/2019/05/22/cost-of-college/">Flowing Data</a> | TBD | TBD
 ## 01 - Process & Learnings
 Data Preprocessing (Python)
 - First, I used pandas in Python to clean the <a href="https://github.com/littlebitsandcodes/d3-weekly/blob/main/2024/01-line/data/fredgraph.csv">original csv file</a> downloaded from the U.S. Bureau of Labor Statistics
